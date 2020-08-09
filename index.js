@@ -12,7 +12,9 @@ const rules = {
   'no-var': require('./lib/rules/no-var'),
   'no-functions': require('./lib/rules/no-functions'),
   'no-classes': require('./lib/rules/no-classes'),
-  'roll-your-own': require('./lib/rules/roll-your-own')
+  'roll-your-own': require('./lib/rules/roll-your-own'),
+  'no-css-in-js': require('./lib/rules/no-css-in-js'),
+  'sleep-is-for-the-weak': require('./lib/rules/sleep-is-for-the-weak')
 }
 
 const rulesAsErrors = Object.fromEntries(
